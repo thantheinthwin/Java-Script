@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STV Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav class="list">
+                <ul>
+                    <li>
+                        <button><a href="index.html">Home</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#">Menu</a></button>
+                            <div class="dropdown-content">
+                                <a href="food.html">Food</a>
+                                <a href="treats.html">Treats</a>
+                                <a href="supplies.html">Supplies</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h1>CART</h1>
+            <div id="itemlist">
+
+            </div>
+        </div>
+        <div class="checkout">
+            <p>Cart Totals</p>
+            <table>
+                <tr>
+                    <td>
+                        SUBTOTAL :
+                    </td>
+                    <td style="font-weight: bold; min-width: 60px;" id="subtotal">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        TOTAL :
+                    </td>
+                    <td style="font-weight: bold;" id="total">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button id="checkout" onclick="checkout();">Proceed To Checkout</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer1">
+                    STV
+                </div>
+                <div class="footer2">
+                    Pet Shop
+                </div>
+            </div>
+            <div class="footer3">
+                ' It's Where Your Pets Would Shop '
+            </div>
+        </div>
+    </footer>
+    <script src='app.js'></script>
+</body>
+
+</html>

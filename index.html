@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STV Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav class="list">
+                <ul>
+                    <li>
+                        <button><a href="index.html">Home</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#">Menu</a></button>
+                            <div class="dropdown-content">
+                                <a href="food.html">Food</a>
+                                <a href="treats.html">Treats</a>
+                                <a href="supplies.html">Supplies</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="section">
+            <div class="quote">
+                <img src="images/quotes1.jpg">
+            </div>
+            <div>
+                <div style="text-align: center;">
+                    <h1>Most Popular Items</h1>
+                </div>
+                <div class="popularItems">
+                    <div>
+                        <a href="food.html">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides1 fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img src="images/Food1.jpg" style="width:100%">
+                                    <div class="text">WAINWRIGHT'S</div>
+                                </div>
+
+                                <div class="mySlides1 fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="images/Food2.jpg" style="width:100%">
+                                    <div class="text">Hill's</div>
+                                </div>
+
+                                <div class="mySlides1 fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="images/Food3.jpg" style="width:100%">
+                                    <div class="text">James Wellbeloved</div>
+                                </div>
+
+                                <div class="mySlides1 fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="images/Food4.jpg" style="width:100%">
+                                    <div class="text">Billy + Margot</div>
+                                </div>
+
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                            </div>
+                            <br>
+
+                            <div style="text-align:center">
+                                <span class="dot1" onclick="currentSlide(1)"></span>
+                                <span class="dot1" onclick="currentSlide(2)"></span>
+                                <span class="dot1" onclick="currentSlide(3)"></span>
+                                <span class="dot1" onclick="currentSlide(4)"></span>
+                            </div>
+                            <div class="popularItemsCaption">Popular Foods</div>
+                            <div style="margin: 10px;">
+                                <img src="images/foodQuotes.jpg" alt="treatQuote">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="treats.html">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides2 fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img src="images/Treat1.jpg" style="width:100%">
+                                    <div class="text">Nasher Sticks</div>
+                                </div>
+
+                                <div class="mySlides2 fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="images/Treat2.jpg" style="width:100%">
+                                    <div class="text">Wonky Chomp</div>
+                                </div>
+
+                                <div class="mySlides2 fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="images/Treat3.jpg" style="width:100%">
+                                    <div class="text">Twistos</div>
+                                </div>
+
+                                <div class="mySlides2 fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="images/Treat4.jpg" style="width:100%">
+                                    <div class="text">Playtime Chews</div>
+                                </div>
+
+                                <a class="prev" onclick="plusTreatSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusTreatSlides(1)">&#10095;</a>
+
+                            </div>
+                            <br>
+
+                            <div style="text-align:center">
+                                <span class="dot2" onclick="currentTreatSlide(1)"></span>
+                                <span class="dot2" onclick="currentTreatSlide(2)"></span>
+                                <span class="dot2" onclick="currentTreatSlide(3)"></span>
+                                <span class="dot2" onclick="currentTreatSlide(4)"></span>
+                            </div>
+                            <div class="popularItemsCaption">Popular Treats</div>
+                            <div style="margin: 10px;">
+                                <img src="images/treatQuote.jpg" alt="treatQuote">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="supplies.html">
+                            <div class="slideshow-container">
+
+                                <div class="mySlides3 fade">
+                                    <div class="numbertext">1 / 4</div>
+                                    <img src="images/Supplies1.jpg" style="width:100%">
+                                    <div class="text">Squeaky Monkey</div>
+                                </div>
+
+                                <div class="mySlides3 fade">
+                                    <div class="numbertext">2 / 4</div>
+                                    <img src="images/Supplies2.jpg" style="width:100%">
+                                    <div class="text">Cooling vest</div>
+                                </div>
+
+                                <div class="mySlides3 fade">
+                                    <div class="numbertext">3 / 4</div>
+                                    <img src="images/Supplies3.jpg" style="width:100%">
+                                    <div class="text">Collar</div>
+                                </div>
+
+                                <div class="mySlides3 fade">
+                                    <div class="numbertext">4 / 4</div>
+                                    <img src="images/Supplies4.jpg" style="width:100%">
+                                    <div class="text">Hoodie</div>
+                                </div>
+
+                                <a class="prev" onclick="plusSuppliesSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSuppliesSlides(1)">&#10095;</a>
+
+                            </div>
+                            <br>
+
+                            <div style="text-align:center">
+                                <span class="dot3" onclick="currentSuppliesSlide(1)"></span>
+                                <span class="dot3" onclick="currentSuppliesSlide(2)"></span>
+                                <span class="dot3" onclick="currentSuppliesSlide(3)"></span>
+                                <span class="dot3" onclick="currentSuppliesSlide(4)"></span>
+                            </div>
+                            <div class="popularItemsCaption">Popular Supplies</div>
+                            <div style="margin: 10px;">
+                                <img src="images/suppliesQuotes.jpg" alt="treatQuote">
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer1">
+                    STV
+                </div>
+                <div class="footer2">
+                    Pet Shop
+                </div>
+            </div>
+            <div class="footer3">
+                ' It's Where Your Pets Would Shop '
+            </div>
+        </div>
+    </footer>
+    <script src='app.js'></script>
+    <script src="home.js"></script>
+</body>
+
+</html>

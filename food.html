@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STV Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav class="list">
+                <ul>
+                    <li>
+                        <button><a href="index.html">Home</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#">Menu</a></button>
+                            <div class="dropdown-content">
+                                <a href="food.html">Food</a>
+                                <a href="treats.html">Treats</a>
+                                <a href="supplies.html">Supplies</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="section">
+            <div class="items">
+                <div class="slideshow-container" id="food1">
+                    <img src="images/Food1.jpg" alt="food1">
+                    <h3 class="name">WAINWRIGHT'S</h3>
+                    <p class="price">&euro; 35.99</p>
+                    <button id="add-to-cart" onclick="addToCart('food1');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food2">
+                    <img src="images/Food2.jpg" alt="food2">
+                    <h3 class="name">Hill's</h3>
+                    <p class="price">&euro; 42.99</p>
+                    <button id="add-to-cart" onclick="addToCart('food2');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food3">
+                    <img src="images/Food3.jpg" alt="food3">
+                    <h3 class="name">James Wellbeloved</h3>
+                    <p class="price">&euro; 11.79</p>
+                    <button id="add-to-cart" onclick="addToCart('food3');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food4">
+                    <img src="images/Food4.jpg" alt="food4">
+                    <h3 class="name">Billy + Margot</h3>
+                    <p class="price">&euro; 36.00</p>
+                    <button id="add-to-cart" onclick="addToCart('food4');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food5">
+                    <img src="images/Food5.jpg" alt="food5">
+                    <h3 class="name">Naturediet</h3>
+                    <p class="price">&euro; 1.39</p>
+                    <button id="add-to-cart" onclick="addToCart('food5');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food6">
+                    <img src="images/Food6.jpg" alt="food6">
+                    <h3 class="name">Natures Menu</h3>
+                    <p class="price">&euro; 6.19</p>
+                    <button id="add-to-cart" onclick="addToCart('food6');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food7">
+                    <img src="images/Food7.jpg" alt="food7">
+                    <h3 class="name">Applaws</h3>
+                    <p class="price">&euro; 1.79</p>
+                    <button id="add-to-cart" onclick="addToCart('food7');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="food8">
+                    <img src="images/Food8.jpg" alt="food8">
+                    <h3 class="name">Hill's</h3>
+                    <p class="price">&euro; 3.69</p>
+                    <button id="add-to-cart" onclick="addToCart('food8');">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer1">
+                    STV
+                </div>
+                <div class="footer2">
+                    Pet Shop
+                </div>
+            </div>
+            <div class="footer3">
+                ' It's Where Your Pets Would Shop '
+            </div>
+        </div>
+    </footer>
+    <script src='app.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STV Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav class="list">
+                <ul>
+                    <li>
+                        <button><a href="index.html">Home</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#">Menu</a></button>
+                            <div class="dropdown-content">
+                                <a href="food.html">Food</a>
+                                <a href="treats.html">Treats</a>
+                                <a href="supplies.html">Supplies</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="section">
+            <div class="items">
+                <div class="slideshow-container" id="supplies1">
+                    <img src="images/Supplies1.jpg" alt="supplies1">
+                    <h3 class="name">Squeaky Monkey</h3>
+                    <p class="price">&euro; 31.99</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies1');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies2">
+                    <img src="images/Supplies2.jpg" alt="supplies2">
+                    <h3 class="name">Cooling Vest</h3>
+                    <p class="price">&euro; 42.99</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies2');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies3">
+                    <img src="images/Supplies3.jpg" alt="supplies3">
+                    <h3 class="name">Collar</h3>
+                    <p class="price">&euro; 11.79</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies3');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies4">
+                    <img src="images/Supplies4.jpg" alt="supplies4">
+                    <h3 class="name">Hoodie</h3>
+                    <p class="price">&euro; 20.00</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies4');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies5">
+                    <img src="images/Supplies5.jpg" alt="supplies5">
+                    <h3 class="name">Fleas Killer</h3>
+                    <p class="price">&euro; 39.00</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies5');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies6">
+                    <img src="images/Supplies6.jpg" alt="supplies6">
+                    <h3 class="name">Oral Suspension</h3>
+                    <p class="price">&euro; 15.00</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies6');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies7">
+                    <img src="images/Supplies7.jpg" alt="supplies7">
+                    <h3 class="name">Double bowls</h3>
+                    <p class="price">&euro; 31.00</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies7');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="supplies8">
+                    <img src="images/Supplies8.jpg" alt="supplies8">
+                    <h3 class="name">Mat</h3>
+                    <p class="price">&euro; 9.00</p>
+                    <button id="add-to-cart" onclick="addToCart('supplies8');">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer1">
+                    STV
+                </div>
+                <div class="footer2">
+                    Pet Shop
+                </div>
+            </div>
+            <div class="footer3">
+                ' It's Where Your Pets Would Shop '
+            </div>
+        </div>
+    </footer>
+    <script src='app.js'></script>
+</body>
+
+</html>

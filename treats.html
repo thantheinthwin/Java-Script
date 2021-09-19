@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STV Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav class="list">
+                <ul>
+                    <li>
+                        <button><a href="index.html">Home</a></button>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="#">Menu</a></button>
+                            <div class="dropdown-content">
+                                <a href="food.html">Food</a>
+                                <a href="treats.html">Treats</a>
+                                <a href="supplies.html">Supplies</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <button><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="section">
+            <div class="items">
+                <div class="slideshow-container" id="treat1">
+                    <img src="images/Treat1.jpg" alt="treat1">
+                    <h3 class="name">Nashier Sticks</h3>
+                    <p class="price">&euro; 3.99</p>
+                    <button id="add-to-cart" onclick="addToCart('treat1');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat2">
+                    <img src="images/Treat2.jpg" alt="treat2">
+                    <h3 class="name">Wonky Chomp</h3>
+                    <p class="price">&euro; 4.59</p>
+                    <button id="add-to-cart" onclick="addToCart('treat2');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat3">
+                    <img src="images/Treat3.jpg" alt="treat3">
+                    <h3 class="name">Twistos</h3>
+                    <p class="price">&euro; 2.79</p>
+                    <button id="add-to-cart" onclick="addToCart('treat3');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat4">
+                    <img src="images/Treat4.jpg" alt="treat4">
+                    <h3 class="name">PlayTime Chews</h3>
+                    <p class="price">&euro; 6.00</p>
+                    <button id="add-to-cart" onclick="addToCart('treat4');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat5">
+                    <img src="images/Treat5.jpg" alt="treat5">
+                    <h3 class="name">Chicken Dog Chews</h3>
+                    <p class="price">&euro; 1.39</p>
+                    <button id="add-to-cart" onclick="addToCart('treat5');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat6">
+                    <img src="images/Treat6.jpg" alt="treat6">
+                    <h3 class="name">Peanut Dog Chews</h3>
+                    <p class="price">&euro; 2.19</p>
+                    <button id="add-to-cart" onclick="addToCart('treat6');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat7">
+                    <img src="images/Treat7.jpg" alt="treat7">
+                    <h3 class="name">Scruffy Bites</h3>
+                    <p class="price">&euro; 1.79</p>
+                    <button id="add-to-cart" onclick="addToCart('treat7');">Add to Cart</button>
+                </div>
+
+                <div class="slideshow-container" id="treat8">
+                    <img src="images/Treat8.jpg" alt="treat8">
+                    <h3 class="name">Denta Stix</h3>
+                    <p class="price">&euro; 4.29</p>
+                    <button id="add-to-cart" onclick="addToCart('treat8');">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="footer1">
+                    STV
+                </div>
+                <div class="footer2">
+                    Pet Shop
+                </div>
+            </div>
+            <div class="footer3">
+                ' It's Where Your Pets Would Shop '
+            </div>
+        </div>
+    </footer>
+    <script src='app.js'></script>
+</body>
+
+</html>
